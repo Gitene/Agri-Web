@@ -98,6 +98,11 @@ p {
   justify-content: space-around;
   margin: 5px; }
 
+#auparent {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px; }
+
 .parent {
   display: flex;
   justify-content: space-between; }
@@ -198,6 +203,20 @@ div.footer ul {
 
 div.footerpara {
   text-align: center; }
+
+.about-text {
+  flex: 80%;
+  background-color: #ffffff;
+  border: 2px solid #C7EAB8;
+  margin: 0 10px 0px;
+  text-align: left;
+  padding: 7px; }
+
+.about-header {
+  background-color: #B7C881;
+  margin: 0 0 3px;
+  text-align: center;
+  border-radius: 7px; }
 
 .dropdown {
   display: none; }
