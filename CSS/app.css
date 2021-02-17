@@ -128,6 +128,22 @@ h3 {
   margin-bottom: 10px;
   text-align: center; }
 
+div.left-menu ul li {
+  margin: 3px 0;
+  width: 289px;
+  border: 2px solid #C7EAB8;
+  border-radius: 6px;
+  font-size: 28px;
+  line-height: 1.5em;
+  background-color: #B7C881; }
+  div.left-menu ul li h3 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 1em; }
+
+.main-pic {
+  width: 700px; }
+
 .dropdown {
   display: none; }
 
