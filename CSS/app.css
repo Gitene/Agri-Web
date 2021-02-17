@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E8F7E2;
+  color: #000029; }
+
+nav {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #929e70; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+  li a {
+    text-decoration: none;
+    color: black; }
+
+h3 {
+  padding: 0;
+  margin: 0; }
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.row::after {
+  display: table;
+  clear: both; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+#header {
+  width: 100%;
+  background-color: #C7EAB8;
+  display: block;
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #304100; }
+
+@media(min-width:600px);
+#bdparent {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px; }
+
+.parent {
+  display: flex;
+  justify-content: space-between; }
+
+.ulparent {
+  display: flex;
+  justify-content: space-between;
+  width: 50%; }
+
+.nav-box {
+  font-size: 20px;
+  text-align: center;
+  color: #304100; }
+
+.left-menu {
+  flex: 20%;
+  background-color: #ffffff;
+  border: 2px solid #C7EAB8;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column; }
+
+.center-map {
+  flex: 50%;
+  height: 100px;
+  background-color: #ffffff;
+  border: 2px solid #C7EAB8;
+  margin: 0 10px 10px;
+  text-align: center; }
+
+.right-menu {
+  flex: 20%;
+  height: 100px;
+  background-color: #ffffff;
+  border: 2px solid #C7EAB8;
+  margin-bottom: 10px;
+  text-align: center; }
+
+.dropdown {
+  display: none; }
+
+@media (max-width: 768px) {
+  ul.ulparent li.nav-box a {
+    display: none; }
+
+  .dropdown {
+    display: block; }
+
+  ul.ulparent.responsive li.nav-box a {
+    display: block; } }
+
+/*# sourceMappingURL=app.css.map */
