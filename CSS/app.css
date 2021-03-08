@@ -103,6 +103,15 @@ p {
   justify-content: space-around;
   margin: 5px; }
 
+#log-in-box {
+  height: 300px;
+  width: 500px;
+  background-color: #E8F7E2;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  margin: 106px auto;
+  display: flex; }
+
 .parent {
   display: flex;
   justify-content: space-between; }
@@ -116,6 +125,14 @@ p {
   font-size: 20px;
   text-align: center;
   color: #304100; }
+
+.home-log-in {
+  font-size: 20px;
+  color: #304100; }
+  .home-log-in a {
+    text-decoration: none;
+    margin: 10px;
+    color: black; }
 
 .left-menu {
   flex: 19%;
@@ -132,7 +149,8 @@ p {
   background-color: #ffffff;
   border: 2px solid #C7EAB8;
   margin: 0 10px 0px;
-  text-align: center; }
+  text-align: center;
+  box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset; }
 
 .map-header {
   background-color: #B7C881;
@@ -153,7 +171,8 @@ div.left-menu ul li {
   border-radius: 6px;
   font-size: 20px;
   line-height: 1.5em;
-  background-color: #B7C881; }
+  background-color: #B7C881;
+  box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset; }
   div.left-menu ul li h3 {
     font-size: 20px;
     text-align: center;
@@ -176,7 +195,8 @@ div.right-menu ul li {
   border-radius: 6px;
   font-size: 20px;
   line-height: 1.5em;
-  background-color: #B7C881; }
+  background-color: #B7C881;
+  box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset; }
   div.right-menu ul li h3 {
     font-size: 20px;
     text-align: center;
@@ -217,6 +237,31 @@ div.footerpara {
   margin: 0 0 3px;
   text-align: center;
   border-radius: 7px; }
+
+.my-log-in-form {
+  padding: 40px;
+  margin: auto; }
+  .my-log-in-form .log-in-button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background: #E8F7E2;
+    border: 1px solid #C7EAB8;
+    border-radius: 4px;
+    padding: 10px 15px; }
+  .my-log-in-form .form-check-input {
+    margin-left: 10px; }
+  .my-log-in-form .form {
+    margin: 10px; }
+    .my-log-in-form .form .form-label {
+      margin: 10px 0;
+      font-size: 20px; }
+    .my-log-in-form .form .form-input {
+      width: 350px;
+      font-size: 20px;
+      margin: 5px 0;
+      padding: 7px;
+      border-radius: 7px;
+      border: 1px solid #C7EAB8; }
 
 .dropdown {
   display: none; }
